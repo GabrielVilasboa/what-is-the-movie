@@ -187,6 +187,7 @@ export default {
       this.status_image = 'hidden'
       this.attempts = 5
       this.isFinish = false
+      this.shot_movie_name = ''
       await this.getMovie()
     }
   }
