@@ -1,35 +1,25 @@
-# what-is-the-movie
 
-This template should help get you started developing with Vue 3 in Vite.
+# Qual é o Filme?
 
-## Recommended IDE Setup
+Este é um projeto Vue.js que utiliza a API do The Movie Database (TMDb) para criar um jogo de adivinhação de filmes. O projeto está hospedado no Netlify e pode ser acessado [aqui](https://vermillion-cannoli-570aae.netlify.app).
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Visão Geral
 
-## Customize configuration
+O jogo "Qual é o Filme?" permite aos usuários adivinhar filmes com base em informações fornecidas pela API do TMDb. Os usuários podem ver dicas sobre os filmes e tentar adivinhar o título correto.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Tecnologias Utilizadas
 
-## Project Setup
+- **Vue.js**: Framework JavaScript para construção da interface do usuário.
+- **The Movie Database (TMDb) API**: Para obter dados sobre filmes.
+- **Netlify**: Para hospedar o aplicativo.
 
-```sh
-npm install
-```
+## Funcionalidades
 
-### Compile and Hot-Reload for Development
+- **Busca de Filmes**: Os usuários podem buscar por filmes usando a API do TMDb.
+- **Adivinhação de Filmes**: Os usuários podem tentar adivinhar o título do filme baseado na descrição e imagem e poster(com blur).
 
-```sh
-npm run dev
-```
+## Contribuição
 
-### Compile and Minify for Production
+Se você deseja contribuir com este projeto, sinta-se à vontade para fazer um fork do repositório e enviar um pull request.
 
-```sh
-npm run build
-```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
