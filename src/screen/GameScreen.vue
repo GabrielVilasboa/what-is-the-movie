@@ -46,7 +46,6 @@ img {
   margin-bottom: 18px;
   transition:
     filter 0.8s ease,
-    height 0.8s ease,
     margin 0.8s ease;
 }
 
@@ -90,7 +89,6 @@ input:focus {
 }
 .hidden {
   filter: blur(10px);
-  margin-bottom: 36px;
 }
 
 .overview {
@@ -121,6 +119,10 @@ input:focus {
 
   .title {
     margin: 10px 0;
+  }
+
+  .hidden {
+    margin-bottom: 36px;
   }
 }
 </style>
