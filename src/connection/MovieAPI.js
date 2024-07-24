@@ -55,16 +55,3 @@ export default class MovieAPI {
     }
   }
 }
-
-// Uso da classe no Vue.js
-// const token =
-//   'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmYmNkZGNlY2ZjZDU1YzlkNzI5NTYxOTc0ZjhmZTU0ZiIsIm5iZiI6MTcyMTc1Mjg0Mi42MzU3NzIsInN1YiI6IjY2OWZkYzIzYTcyZmU4MTFkOTUyZDA4MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.H5hjwjmxZHixdUnUoVCBxJ7mYxn2lShtogZKtuwJLLw'
-// const movieAPI = new MovieAPI(token)
-
-// movieAPI.getRandomMovie().then((movie) => {
-//   if (movie) {
-//     console.log(movie)
-//   } else {
-//     console.log('Failed to get a random movie.')
-//   }
-// })
